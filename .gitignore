@@ -1,0 +1,30 @@
+# Python Bytecode-Dateien
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtuelle Umgebungen
+venv/
+.env/
+.venv/
+
+# IDE und Editor-spezifische Dateien
+.vscode/
+.idea/
+*.iml
+
+# macOS-spezifische Dateien
+.DS_Store
+
+# Windows-spezifische Dateien
+Thumbs.db
+Desktop.ini
+
+# Python-Dokumentationsdateien
+*.log
+
+# Systemdateien und andere temporäre Dateien
+*.swp
+*.bak
+*.tmp
