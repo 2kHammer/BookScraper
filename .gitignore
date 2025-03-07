@@ -28,3 +28,7 @@ Desktop.ini
 *.swp
 *.bak
 *.tmp
+
+#MongoDB
+mongodb/
+!mongodb/docker-compose.yml
