@@ -30,5 +30,5 @@ Desktop.ini
 *.tmp
 
 #MongoDB
-mongodb/
+mongodb/database
 !mongodb/docker-compose.yml
