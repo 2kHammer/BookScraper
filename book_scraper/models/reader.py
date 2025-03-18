@@ -8,6 +8,10 @@ class ReaderBook:
     rating: float
     shelf: Shelf
 
+    def mongo_dict(self):
+        return {"id": self.id, "title": self.title, "rating": self.rating, "shelf": self.shelf.value}
+
+
 class Reader:
     def __init__(self,id,name=""):
         self.id = id

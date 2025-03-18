@@ -9,6 +9,7 @@ headers = {
 
 def fetch_goodreads(reader_id, shelf):
     link_to_fetch = base_link+ str(reader_id)+ shelf_link + shelf.value
+    #proxies = {"https":proxy}
     rated_books_request = requests.get(link_to_fetch, headers=headers)
     if rated_books_request.status_code == 200:
         #print(rated_books_request.text)
@@ -16,3 +17,5 @@ def fetch_goodreads(reader_id, shelf):
     else:
         rated_books_parsed_xml = None
     return link_to_fetch, rated_books_parsed_xml
+
+
