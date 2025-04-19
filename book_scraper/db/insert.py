@@ -27,6 +27,8 @@ def insert_reader(reader, db):
 
 
 
+
+
 def insert_books(books, db):
     book_collection = db["books"]
     books_dic = [b.__dict__ for b in books]

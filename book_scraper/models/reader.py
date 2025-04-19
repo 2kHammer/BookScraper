@@ -5,7 +5,7 @@ from book_scraper.models.book import Shelf
 class ReaderBook:
     id: int
     title: str
-    rating: float
+    rating: float #only values 1-5, 0 means -> not rated
     shelf: Shelf
 
     def mongo_dict(self):
